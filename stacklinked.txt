@@ -1,0 +1,49 @@
+struct node
+{
+int data;
+node *next;
+}*top =NULL;
+
+class linkedstack{
+
+public:
+void push(int v);
+void display();
+int pop();
+
+}
+
+int main(){
+    
+push{
+if(top==NULL)
+{
+top=temp;
+}
+else{
+
+}
+}
+node *temp= new node ;
+temp->data = value;
+temp->next=NULL;
+
+
+pop{
+    if(top==NULL){
+        stack underflow
+    }
+    else{
+        t=top
+        top=top->next
+        del t
+    }
+}
+
+display{
+    t=top;
+    while(t->next!NULL)
+    {
+        cout<<t->data;
+    }
+}
